@@ -55,6 +55,37 @@
         "chatSessionId": "sess_6df1ffb5-44e5-40ec-afd3-c6ad380c0cf3",
         "timestamp": 1792647397273
       }
+    ],
+    "2.1 Implement core domain schemas and types": [
+      {
+        "executionId": "6f4f4637-dca9-4428-a282-ad3816454cc3",
+        "chatSessionId": "sess_ea7bf405-06f7-4354-861b-6ab6bdacd5bd",
+        "timestamp": 1792647766613
+      },
+      {
+        "executionId": "6f4f4637-dca9-4428-a282-ad3816454cc3",
+        "chatSessionId": "sess_ea7bf405-06f7-4354-861b-6ab6bdacd5bd",
+        "timestamp": 1792647928504
+      }
+    ],
+    "2. Define Zod-backed contract schemas and shared types": [
+      {
+        "executionId": "6f4f4637-dca9-4428-a282-ad3816454cc3",
+        "chatSessionId": "sess_ea7bf405-06f7-4354-861b-6ab6bdacd5bd",
+        "timestamp": 1792647928681
+      }
+    ],
+    "2.2 Write property test for generated UAT_Case structural validity": [
+      {
+        "executionId": "29d662df-6daa-4a65-8a38-592911145270",
+        "chatSessionId": "sess_9cbd5188-077d-4020-9ac1-b83e27cb8638",
+        "timestamp": 1792647951527
+      },
+      {
+        "executionId": "29d662df-6daa-4a65-8a38-592911145270",
+        "chatSessionId": "sess_9cbd5188-077d-4020-9ac1-b83e27cb8638",
+        "timestamp": 1792648072389
+      }
     ]
   }
 }

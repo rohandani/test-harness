@@ -30,13 +30,13 @@ Property-based tests use fast-check (minimum 100 iterations) and are tagged `Fea
     - Assert well-formed payloads pass and malformed payloads are rejected with schema errors
     - _Requirements: 1.3_
 
-- [ ] 2. Define Zod-backed contract schemas and shared types
-  - [ ] 2.1 Implement core domain schemas and types
+- [x] 2. Define Zod-backed contract schemas and shared types
+  - [x] 2.1 Implement core domain schemas and types
     - Define Zod schemas and TypeScript types for `UatContract`, `UatCase`, `UatStep`, `ExpectedOutcome`, `ComparisonPolicy`, `RuntimeContract`, `HealthSpec`, `SecretRef`, `BaselineManifest`, `EvidenceArtifactRef`, `NormalizedCaseResult`, `DifferentialCaseResult`, `ConfidenceDimension`, `ConfidenceMatrix`, and the `Observation`/`Classification`/`ComparisonStrategy` enums
     - Enforce enumerated constraints (source, criticality, type, status) and the 0.0–1.0 confidence bound at the schema level
     - _Requirements: 1.3, 3.3, 14.1, 14.2, 15.1_
 
-  - [ ]* 2.2 Write property test for generated UAT_Case structural validity
+  - [x] 2.2 Write property test for generated UAT_Case structural validity
     - **Property 3: Generated UAT_Case structural validity** — required fields present; source/criticality/type in their enums; confidence in [0.0, 1.0]
     - **Validates: Requirements 3.3**
     - _Requirements: 3.3_ _Property: 3_
