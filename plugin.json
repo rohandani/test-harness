@@ -1,0 +1,19 @@
+{
+  "name": "transformation-validator",
+  "displayName": "AI Transformation Validator",
+  "version": "0.1.0",
+  "description": "A Kiro Power that produces credible, auditable evidence that an AI-modernized application preserves required behavior via a three-way differential comparison (expected vs. baseline vs. transformed).",
+  "publisher": "transformation-validator",
+  "engines": {
+    "node": ">=22"
+  },
+  "skills": [
+    "skills/analyze/SKILL.md",
+    "skills/uat/SKILL.md",
+    "skills/runtime/SKILL.md",
+    "skills/baseline/SKILL.md",
+    "skills/validate/SKILL.md",
+    "skills/report/SKILL.md"
+  ],
+  "mcp": "mcp.json"
+}

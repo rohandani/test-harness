@@ -1,0 +1,36 @@
+{
+  "name": "transformation-validator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript MCP server for the AI Transformation Validator Kiro Power.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "dist/server.js",
+  "bin": {
+    "transformation-validator": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "26.6.5",
+    "eslint": "10.13.0",
+    "fast-check": "4.10.2",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.0",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "transformation-validator": {
+      "command": "node",
+      "args": ["./dist/server.js"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

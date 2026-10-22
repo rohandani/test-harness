@@ -1,0 +1,60 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create the Kiro Power package structure": [
+      {
+        "executionId": "70691b81-2f00-4e75-b2ce-8d5468d31eaa",
+        "chatSessionId": "sess_deceddac-2222-46fa-be22-a253832b4e3d",
+        "timestamp": 1792646565358
+      },
+      {
+        "executionId": "70691b81-2f00-4e75-b2ce-8d5468d31eaa",
+        "chatSessionId": "sess_deceddac-2222-46fa-be22-a253832b4e3d",
+        "timestamp": 1792646868497
+      }
+    ],
+    "1.2 Implement the MCP tool router with Zod I/O validation and the idempotency layer": [
+      {
+        "executionId": "70691b81-2f00-4e75-b2ce-8d5468d31eaa",
+        "chatSessionId": "sess_deceddac-2222-46fa-be22-a253832b4e3d",
+        "timestamp": 1792646871841
+      },
+      {
+        "executionId": "70691b81-2f00-4e75-b2ce-8d5468d31eaa",
+        "chatSessionId": "sess_deceddac-2222-46fa-be22-a253832b4e3d",
+        "timestamp": 1792647146500
+      }
+    ],
+    "1. Scaffold Kiro Power package and TypeScript MCP server bootstrap": [
+      {
+        "executionId": "70691b81-2f00-4e75-b2ce-8d5468d31eaa",
+        "chatSessionId": "sess_deceddac-2222-46fa-be22-a253832b4e3d",
+        "timestamp": 1792647146619
+      }
+    ],
+    "1.3 Write property test for idempotency of state-changing operations": [
+      {
+        "executionId": "e14e0cf2-7e3a-451f-9d49-fdbc65f42341",
+        "chatSessionId": "sess_0bc930b4-1c71-4d85-86e1-0db07a32666e",
+        "timestamp": 1792647182158
+      },
+      {
+        "executionId": "e14e0cf2-7e3a-451f-9d49-fdbc65f42341",
+        "chatSessionId": "sess_0bc930b4-1c71-4d85-86e1-0db07a32666e",
+        "timestamp": 1792647270531
+      }
+    ],
+    "1.4 Write unit tests for Zod schema rejection of malformed tool I/O": [
+      {
+        "executionId": "e71df0b4-966e-4d0a-9a76-3f96c97cc2cc",
+        "chatSessionId": "sess_6df1ffb5-44e5-40ec-afd3-c6ad380c0cf3",
+        "timestamp": 1792647282080
+      },
+      {
+        "executionId": "e71df0b4-966e-4d0a-9a76-3f96c97cc2cc",
+        "chatSessionId": "sess_6df1ffb5-44e5-40ec-afd3-c6ad380c0cf3",
+        "timestamp": 1792647397273
+      }
+    ]
+  }
+}
