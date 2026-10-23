@@ -86,6 +86,49 @@
         "chatSessionId": "sess_9cbd5188-077d-4020-9ac1-b83e27cb8638",
         "timestamp": 1792648072389
       }
+    ],
+    "3.1 Implement content hashing and Baseline_Manifest build + verification": [
+      {
+        "executionId": "21727069-ff1d-4f14-862e-96f844aa7e97",
+        "chatSessionId": "sess_cc948321-7849-498c-8879-7fef79b76648",
+        "timestamp": 1792697016782
+      },
+      {
+        "executionId": "21727069-ff1d-4f14-862e-96f844aa7e97",
+        "chatSessionId": "sess_cc948321-7849-498c-8879-7fef79b76648",
+        "timestamp": 1792700676801
+      }
+    ],
+    "3. Implement the baseline integrity / manifest hasher (pure logic)": [
+      {
+        "executionId": "21727069-ff1d-4f14-862e-96f844aa7e97",
+        "chatSessionId": "sess_cc948321-7849-498c-8879-7fef79b76648",
+        "timestamp": 1792700676934
+      }
+    ],
+    "3.2 Write property test for baseline manifest completeness and integrity gating": [
+      {
+        "executionId": "01d47879-48ba-420b-a509-7d6393dc1209",
+        "chatSessionId": "sess_90be7ccb-1a6b-4110-9482-4878dcee57c0",
+        "timestamp": 1792700819638
+      },
+      {
+        "executionId": "01d47879-48ba-420b-a509-7d6393dc1209",
+        "chatSessionId": "sess_90be7ccb-1a6b-4110-9482-4878dcee57c0",
+        "timestamp": 1792711685495
+      }
+    ],
+    "3.3 Write property test for expected outcomes independent of baseline evidence": [
+      {
+        "executionId": "ed64a69a-abc0-4d27-b6e7-3fd61fa58012",
+        "chatSessionId": "sess_043c68bf-5408-4d44-b561-140a4847d0d8",
+        "timestamp": 1792711808608
+      },
+      {
+        "executionId": "ed64a69a-abc0-4d27-b6e7-3fd61fa58012",
+        "chatSessionId": "sess_043c68bf-5408-4d44-b561-140a4847d0d8",
+        "timestamp": 1792726643394
+      }
     ]
   }
 }

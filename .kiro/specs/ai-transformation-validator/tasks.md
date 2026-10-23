@@ -41,19 +41,19 @@ Property-based tests use fast-check (minimum 100 iterations) and are tagged `Fea
     - **Validates: Requirements 3.3**
     - _Requirements: 3.3_ _Property: 3_
 
-- [ ] 3. Implement the baseline integrity / manifest hasher (pure logic)
-  - [ ] 3.1 Implement content hashing and Baseline_Manifest build + verification
+- [x] 3. Implement the baseline integrity / manifest hasher (pure logic)
+  - [x] 3.1 Implement content hashing and Baseline_Manifest build + verification
     - Compute canonical sha256 content hashes for UAT, runtime, fixture, and evidence manifests; assemble a `BaselineManifest` with all required fields and status `LOCKED`
     - Implement verification that recomputes every hash and gates comparison: proceed only if all hashes match, otherwise stop and report an integrity failure
     - Ensure baseline evidence is immutable once LOCKED and that a pre-existing legacy failure is never converted into an expected-outcome rule
     - _Requirements: 11.1, 11.2, 11.3, 11.4, 11.5_
 
-  - [ ]* 3.2 Write property test for baseline manifest completeness and integrity gating
+  - [x] 3.2 Write property test for baseline manifest completeness and integrity gating
     - **Property 14: Baseline manifest completeness and integrity gating** — manifest complete + LOCKED; comparison proceeds iff every recorded hash matches, otherwise integrity failure
     - **Validates: Requirements 11.1, 11.4, 11.5**
     - _Requirements: 11.1, 11.4, 11.5_ _Property: 14_
 
-  - [ ]* 3.3 Write property test for expected outcomes independent of baseline evidence
+  - [x] 3.3 Write property test for expected outcomes independent of baseline evidence
     - **Property 15: Expected outcomes are independent of baseline evidence** — a case's expected outcome is identical before and after baseline capture; a legacy failure is never promoted
     - **Validates: Requirements 11.3**
     - _Requirements: 11.3_ _Property: 15_
